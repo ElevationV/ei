@@ -2,6 +2,7 @@
 
 pub mod parser;
 pub mod writer;
+pub mod type_codec;
 
 #[derive(Debug, Clone, Copy)]
 pub enum Endian {
